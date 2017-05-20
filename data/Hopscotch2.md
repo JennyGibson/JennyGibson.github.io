@@ -1,0 +1,9 @@
+
+ We use the sensor information to track the movements of the children and then we can use this to inform our understanding of how they are using the space and interacting with each other. We track children over a number of playtimes so we can make sure we have a reliable picture how children are using the playground space.
+
+## What are you hoping to learn?
+One important motivating question for this project is *"how we can optimize playtimes so that children can make the most of them?"* To address this we have worked together with partner organisations who are interested in play and outdoor learning, including [Learning through Landscapes](https://www.ltl.org.uk/), and [Play England](http://www.playengland.org.uk/). Together we implemented some simple changes to transform a school playground environment, this included the provision of skilled playworker support, large den-making structures and loose parts play materials. We are also grateful to [Community Playthings](http://www.communityplaythings.eu/) and [Touchwood](http://touchwoodplay.co.uk/) for kind donations and discounts with the play materials.
+
+The research question we asked from the sensor data here was *"do children's movements and interactions on the playground change after the introduction of simple environmental changes?"* The changes we predicted include an increase in engagement in play, increased physical activity, and increased social activity. We're analysing the data right now so we're not yet sure if our predictions are correct - watch this space for more info!
+## Anything else?
+Sure. We also interested in what we can learn from the sensor data about how children interact in groups. Watch the
