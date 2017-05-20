@@ -19,7 +19,8 @@
     "paper-icon-button": "PolymerElements/paper-icon-button#2.0-preview",
     "paper-styles": "PolymerElements/paper-styles#2.0-preview",
     "polymer": "Polymer/polymer#^2.0.0-rc.3",
-    "promise-polyfill": "polymerlabs/promise-polyfill#2.0-preview"
+    "promise-polyfill": "polymerlabs/promise-polyfill#2.0-preview",
+    "marked-element": "PolymerElements/marked-element#^2.0.0"
   },
   "variants": {
     "1.x": {

@@ -10,6 +10,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../bower_components/marked-element/marked-element.html">
 <link rel="import" href="app-icons.html">
 
 <dom-module id="article-detail">
@@ -96,6 +97,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <section class="main">
       <h3>{{article.desc}}</h3>
       <p>{{article.content}}</p>
+      <marked-element>
+        <div class="markdown-html"></div>
+          <script type="text/markdown" src="{{article.mdcontent}}"></script>
+        </marked-element>
     </section>
 
   </template>
