@@ -20,7 +20,7 @@
         "mediacontentb":"images/Belvedere.jpg",
         "capcontentb":"",
         "mdcontentc":"data/Play3.md",
-        "mediacontentc":"",
+        "mediacontentc":"images/cuppatee.png",
         "capcontentc":""
       },
       {
@@ -34,13 +34,13 @@
         "desc":"",
         "content":"",
         "mdcontent":"data/Nature1.md",
-        "mediacontent":"",
+        "mediacontent":"images/cuppatee.png",
         "capcontent":"",
-        "mdcontentb":"",
-        "mediacontentb":"",
+        "mdcontentb":"data/cuppatee.md",
+        "mediacontentb":"images/cuppatee.png",
         "capcontentb":"",
-        "mdcontentc":"",
-        "mediacontentc":"",
+        "mdcontentc":"data/cuppatee.md",
+        "mediacontentc":"images/cuppatee.png",
         "capcontentc":""
       },
       {
@@ -57,10 +57,10 @@
         "mediacontent":"images/RachelPix.jpg",
         "capcontent":" Here you can see a picture of Rachel our fab research assistant preparing the hats ready for the kids",
         "mdcontentb":"data/Hopscotch2.md",
-        "mediacontentb":"",
+        "mediacontentb":"images/cuppatee.png",
         "capcontentb":"",
-        "mdcontentc":"",
-        "mediacontentc":"",
+        "mdcontentc":"data/cuppatee.md",
+        "mediacontentc":"images/cuppatee.png",
         "capcontentc":""
 
       },
@@ -75,13 +75,13 @@
         "desc":"",
         "content":"",
         "mdcontent":"data/meits.md",
-        "mediacontent":"",
+        "mediacontent":"images/cuppatee.png",
         "capcontent":"",
-        "mdcontentb":"",
-        "mediacontentb":"",
+        "mdcontentb":"data/cuppatee.md",
+        "mediacontentb":"images/cuppatee.png",
         "capcontentb":"",
-        "mdcontentc":"",
-        "mediacontentc":"",
+        "mdcontentc":"data/cuppatee.md",
+        "mediacontentc":"images/cuppatee.png",
         "capcontentc":""
       },
         {
@@ -94,14 +94,14 @@
         "image":"images/exp1.jpg",
         "desc":"",
         "content":"",
-        "mdcontent":"",
-        "mediacontent":"",
+        "mdcontent":"data/cuppatee.md",
+        "mediacontent":"images/cuppatee.png",
         "capcontent":"",
-        "mdcontentb":"",
-        "mediacontentb":"",
+        "mdcontentb":"data/cuppatee.md",
+        "mediacontentb":"images/cuppatee.png",
         "capcontentb":"",
-        "mdcontentc":"",
-        "mediacontentc":"",
+        "mdcontentc":"data/cuppatee.md",
+        "mediacontentc":"images/cuppatee.png",
         "capcontentc":""
       },
       {
@@ -115,13 +115,14 @@
         "desc":"",
         "content":"",
         "mdcontent":"data/Lang1.md",
-        "mediacontent":"",
+        "mediacontent":"images/cuppatee.png",
         "capcontent":"",
-        "mdcontentb":"",
-        "mediacontentb":"",
+
+        "mdcontentb":"data/cuppatee.md",
+        "mediacontentb":"images/cuppatee.png",
         "capcontentb":"",
-        "mdcontentc":"",
-        "mediacontentc":"",
+        "mdcontentc":"data/cuppatee.md",
+        "mediacontentc":"images/cuppatee.png",
         "capcontentc":""
       }
     ]
