@@ -6,4 +6,4 @@ Developmental language disorders (DLD) are diagnosed when children have difficul
 
 I am involved in two research projects that aim to reveal more about this poorly understood condition that affects around 7% of children in the U.K. Both projects involve secondary data analysis - this means that we work with large amounts of data that have already been collected by specialist government-funded research teams who are dedicated to this type of data collection. The advantage of this approach is that we have access to many more data-points than would be feasible if we were to attempt to collect the data in-house.
 
-## Millennium cohort study (MCS)
+*More information to follow*

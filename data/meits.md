@@ -1,3 +1,3 @@
 ## Multilingualism and neurodevelopmental differences
 
-More information about this research project will appear soon.
+In this study, I'm working with Dr Napoleon Katsos, from the Department of Theoretical and Applied Linguistics, University of Cambridge. We are investigating the benefits and challenges associated with choosing a multilingual upbringing for children who have neurodevelopmental differences.

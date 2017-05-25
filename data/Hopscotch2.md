@@ -6,4 +6,4 @@ One important motivating question for this project is *"how we can optimize play
 
 The research question we asked from the sensor data here was *"do children's movements and interactions on the playground change after the introduction of simple environmental changes?"* The changes we predicted include an increase in engagement in play, increased physical activity, and increased social activity. We're analysing the data right now so we're not yet sure if our predictions are correct - watch this space for more info!
 ## Anything else?
-Sure. We also interested in what we can learn from the sensor data about how children interact in groups. Watch the
+Sure. We are also interested in what we can learn from the sensor data about how children interact in groups. For example, we will investigate the size of children's play networks, and whether individual differences in social competence can be detected reliably from movement data.
