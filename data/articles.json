@@ -21,7 +21,8 @@
         "capcontentb":"",
         "mdcontentc":"data/Play3.md",
         "mediacontentc":"images/cuppatee.png",
-        "capcontentc":""
+        "capcontentc":"",
+        "precontent":"data/cuppatee.md"
       },
       {
         "id": "2",
@@ -41,7 +42,8 @@
         "capcontentb":"",
         "mdcontentc":"data/cuppatee.md",
         "mediacontentc":"images/cuppatee.png",
-        "capcontentc":""
+        "capcontentc":"",
+        "precontent":"data/cuppatee.md"
       },
       {
         "id": "3",
@@ -61,7 +63,8 @@
         "capcontentb":"",
         "mdcontentc":"data/cuppatee.md",
         "mediacontentc":"images/cuppatee.png",
-        "capcontentc":""
+        "capcontentc":"",
+        "precontent":"data/cuppatee.md"
 
       },
       {
@@ -82,7 +85,8 @@
         "capcontentb":"",
         "mdcontentc":"data/cuppatee.md",
         "mediacontentc":"images/cuppatee.png",
-        "capcontentc":""
+        "capcontentc":"",
+        "precontent":"data/cuppatee.md"
       },
         {
         "id": "6",
@@ -102,7 +106,8 @@
         "capcontentb":"",
         "mdcontentc":"data/cuppatee.md",
         "mediacontentc":"images/cuppatee.png",
-        "capcontentc":""
+        "capcontentc":"",
+        "precontent":"data/cuppatee.md"
       },
       {
         "id": "4",
@@ -122,7 +127,8 @@
         "capcontentb":"",
         "mdcontentc":"data/cuppatee.md",
         "mediacontentc":"images/cuppatee.png",
-        "capcontentc":""
+        "capcontentc":"",
+        "precontent":"data/cuppatee.md"
       }
     ]
   },
@@ -147,7 +153,8 @@
         "capcontentb":"",
         "mdcontentc":"data/Torres.md",
         "mediacontentc":"images/Pablo.jpg",
-        "capcontentc":"Pablo Torres"
+        "capcontentc":"Pablo Torres",
+        "precontent":"data/cuppatee.md"
       },
       {
         "id": "2",
@@ -167,7 +174,8 @@
         "capcontentb":"",
         "mdcontentc":"data/cuppatee.md",
         "mediacontentc":"images/cuppatee.png",
-        "capcontentc":""
+        "capcontentc":"",
+        "precontent":"data/cuppatee.md"
       }
     ]
   },
@@ -193,7 +201,8 @@
             "capcontentb":"",
             "mdcontentc":"data/cuppatee.md",
             "mediacontentc":"images/cuppatee.png",
-            "capcontentc":""
+            "capcontentc":"",
+            "precontent":"data/Funds.md"
           }
         ]
   },
@@ -219,7 +228,8 @@
             "capcontentb":"",
             "mdcontentc":"data/cuppatee.md",
             "mediacontentc":"images/cuppatee.png",
-            "capcontentc":""
+            "capcontentc":"",
+            "precontent":"data/Aboutpre.md"
           }
         ]
   }
