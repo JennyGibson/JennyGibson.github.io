@@ -55,7 +55,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </a>
 
   <section><span>
-    <marked-element>
+      <marked-element markdown="[[markdown]]" renderer="[[customRenderer]]">
       <div class="markdown-html"></div>
         <script type="text/markdown" src="{{article.precontent}}"></script>
       </div>
@@ -88,6 +88,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     ready: function(){
       console.log(this.name)
 
+    },
+
+    customRenderer: function (renderer) {
+      renderer.link = (href, title, text) => {
+        return `<a href="${href}" title="${title}">${text}</a>`;
+      };
+      return renderer;
     }
 
     });
