@@ -54,14 +54,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <div class="title" style$="background-color: [[article.secondaryColor]];">[[article.title]]</div>
     </a>
 
-  <section><span>
-      <marked-element markdown="[[markdown]]" renderer="[[customRenderer]]">
-      <div class="markdown-html"></div>
+  <section>
+    <span>
+      <marked-element>
+      <div class="markdown-html">
         <script type="text/markdown" src="{{article.precontent}}"></script>
       </div>
-    </marked-element>
-  </span>
-   </section>
+     </marked-element>
+    </span>
+  </section>
+  <a href$="[[hrefx]]">
+    <div>[[mkdown]]</div>
+  </a>
+
   </template>
 
   <script>
@@ -75,27 +80,37 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         article: Object,
 
         href: String,
+        hrefx: {
+          type: String,
+          value:""
+        },
 
         sx: {
           type: Object,
           value:{
             data:"data/cuppatee.md"
           }
+        },
+
+        mkdown: {
+          type: String,
+          value:"",
+          notify: true
         }
 
       },
 
     ready: function(){
-      console.log(this.name)
+      //console.log("HI! ")
+      console.log(this.article.title)
+      if(this.article.title=="About Me"){
+        this.boolax=true
+        this.hrefx="https://jennygibson.github.io/#/about/detail/1"
+        this.mkdown="Continue reading.."
+      }
 
-    },
-
-    customRenderer: function (renderer) {
-      renderer.link = (href, title, text) => {
-        return `<a href="${href}" title="${title}">${text}</a>`;
-      };
-      return renderer;
     }
+
 
     });
 
