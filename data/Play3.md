@@ -8,4 +8,4 @@ Moreover, as my fellow developmental scientists are a sceptical bunch on the who
 
 ## So how do you define play in your research?
 
-We're working on it! As part of my work in the [PEDaL Centre](https://www.educ.cam.ac.uk/centres/pedal/), I'm leading a team of researchers on who are aiming to establish a framework for thinking about play that lends itself to empirical studies in developmental psychology. You can find out more about this research [here]().
+We're working on it! As part of my work in the [PEDaL Centre](https://www.educ.cam.ac.uk/centres/pedal/), I'm leading a team of researchers who are aiming to establish a framework for thinking about play that lends itself to empirical studies in developmental psychology. You can find out more about this research [here]().

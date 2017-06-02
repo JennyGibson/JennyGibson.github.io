@@ -1,6 +1,6 @@
 ## Megan Cornell
 
-Megan is investigating the cogntive and social effects of Loose Parts Play interventions at Primary School playtimes.
+Megan is investigating the cognitive and social effects of Loose Parts Play interventions at Primary School playtimes.
 
 ## Gill Francis
 
