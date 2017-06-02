@@ -10,6 +10,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/marked-element/marked-element.html">
+
 
 <dom-module id="article-headline">
 
@@ -52,6 +54,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <div class="title" style$="background-color: [[article.secondaryColor]];">[[article.title]]</div>
     </a>
 
+  <section><span>
+    <marked-element>
+      <div class="markdown-html"></div>
+        <script type="text/markdown" src="{{article.precontent}}"></script>
+      </div>
+    </marked-element>
+  </span>
+   </section>
   </template>
 
   <script>
@@ -64,9 +74,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         article: Object,
 
-        href: String
+        href: String,
 
-      }
+        sx: {
+          type: Object,
+          value:{
+            data:"data/cuppatee.md"
+          }
+        }
+
+      },
+
+    ready: function(){
+      console.log(this.name)
+
+    }
 
     });
 

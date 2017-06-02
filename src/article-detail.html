@@ -97,7 +97,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <section class="main">
       <h3>{{article.desc}}</h3>
       <p>{{article.content}}</p>
-      <marked-element>
+
+        <marked-element markdown="[[markdown]]" renderer="[[customRenderer]]">
         <div class="markdown-html"></div>
           <script type="text/markdown" src="{{article.mdcontent}}"></script>
         </marked-element>
@@ -107,7 +108,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <p align="justify" style="font-size:90%">{{article.capcontent}}</p>
         </div>
 
-        <marked-element>
+        <marked-element markdown="[[markdown]]" renderer="[[customRenderer]]">
           <div class="markdown-html"></div>
             <script type="text/markdown" src="{{article.mdcontentb}}"></script>
         </marked-element>
@@ -117,7 +118,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <p align="justify" style="font-size:90%">{{article.capcontentb}}</p>
         </div>
 
-        <marked-element>
+        <marked-element markdown="[[markdown]]" renderer="[[customRenderer]]">
           <div class="markdown-html"></div>
             <script type="text/markdown" src="{{article.mdcontentc}}"></script>
         </marked-element>
@@ -143,6 +144,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         article: Object
 
+      },
+
+      customRenderer: function (renderer) {
+        renderer.link = (href, title, text) => {
+          return `<a href="${href}" title="${title}" target="_blank">${text}</a>`;
+        };
+        return renderer;
       }
 
     });
